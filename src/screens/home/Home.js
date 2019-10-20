@@ -1,11 +1,10 @@
 import React from 'react';
-import { Page, Text, Button } from './styles';
+import { Page, Text } from './styles';
 
-export default (props) => {
+export default () => {
   return (
     <Page>
       <Text>Página HOME</Text>
-      <Button title="Perfil" onPress={()=>props.navigation.navigate('Perfil')} />
     </Page>
   );
 };

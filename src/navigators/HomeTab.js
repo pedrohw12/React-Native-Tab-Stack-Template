@@ -1,10 +1,10 @@
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import HomeStack from '../navigators/HomeStack';
-import Config from '../screens/Config';
+import Config from '../screens/config/Config';
 
-const MainNavigator = createBottomTabNavigator({
-  Home: {
+const HomeTab = createBottomTabNavigator({
+  HomeStack: {
     screen: HomeStack
   },
   Config: {
@@ -12,4 +12,4 @@ const MainNavigator = createBottomTabNavigator({
   },
 });
 
-export default MainNavigator;
+export default HomeTab;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Text } from '../screens/perfil/styles';
+import { Page, Text } from '../perfil/styles';
 
 export default () => {
   return (
